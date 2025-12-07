@@ -1,7 +1,7 @@
 # Improved Exploratory Data Analysis of Movie Trends (TMDB 5000)
 
 ## Project Overview
-This project performs an advanced exploratory data analysis (EDA) on the TMDB 5000 Movie Dataset to identify key factors that influence the commercial success and critical acclaim of films. By analyzing variables such as budget, genre, release dates, casting, and production locations, this analysis aims to provide actionable insights for stakeholders in the film industry.
+This project performs an advanced exploratory data analysis (EDA) on the TMDB 5000 Movie Dataset to identify key factors that influence the commercial success and critical acclaim of films. By analyzing variables such as budget, genre, release dates, casting, and production locations, this analysis aims to provide actionable insights for stakeholders in the film industry. An interactive Dashboard using a Streamlit application (app.py) was built to transform static analysis into a platform for visual storytelling and dynamic visualization.
 
 ## Data Source
 The data for this project is open-source and was sourced from [Kaggle: TMDB 5000 Movie Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata). It consists of two files:
@@ -17,6 +17,7 @@ The project is structured into several analytical notebooks:
 5.  **Cast & Crew Analysis:** Identifying top-performing directors and actors based on box office revenue and movie counts.
 6.  **Text Analysis:** Generating word clouds from movie titles to visualize common naming conventions.
 7.  **Geographical Analysis:** Visualizing the global distribution of movie production and average ratings by country.
+8.  **Interactive Dashboard:** Building a Streamlit application (app.py) to transform static analysis into a platform for visual storytelling and dynamic visualization.
 
 ## Key Findings
 * **Correlation:** There is a strong positive correlation between **Budget** and **Revenue**, suggesting that higher investment often leads to higher returns.
@@ -30,8 +31,12 @@ The project is structured into several analytical notebooks:
 * **Matplotlib & Seaborn**: Data visualization.
 * **WordCloud**: Text visualization.
 * **Jupyter Notebooks**: Interactive computing environment.
+* **Streamlit**: Interactive Dashboard to transform static analysis into a platform for visual storytelling and dynamic visualization.
 
 ## How to Run
 1.  Clone this repository.
 2.  Ensure you have the required libraries installed (`pip install pandas numpy matplotlib seaborn wordcloud`).
 3.  Run the notebooks in the order numbered (1.1 to 1.7) to reproduce the analysis.
+4.  Run streamlit in python terminal
+   ```bash
+streamlit run app.py
